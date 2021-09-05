@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
 
 const App = () => {
   return (
-    <div>
-      <h3>Hello & Goodbye</h3>
-      <p>This is something else</p>
-    </div>
+    <Layout pageTitle="Home Page">
+      <p>I'm making this page following the Gatsby tutorial.</p>
+    </Layout>
   );
 };
 
