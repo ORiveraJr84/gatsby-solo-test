@@ -25,11 +25,11 @@ const Layout = ({ pageTitle, children }) => {
             </Link>
           </li>
         </ul>
-        <main>
-          <h1 className={heading}>{pageTitle}</h1>
-          {children}
-        </main>
       </nav>
+      <main>
+        <h1 className={heading}>{pageTitle}</h1>
+        {children}
+      </main>
     </div>
   );
 };
